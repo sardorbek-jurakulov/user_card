@@ -16,8 +16,9 @@ class MyApp extends StatelessWidget {
       title: 'User Info Page',
       theme: ThemeData(
         primarySwatch: Colors.lightGreen,
+        fontFamily: "Roboto",
       ),
-      home: const UserInfoPage(),
+      home: UserInfoPage(),
     );
   }
 }
